@@ -1,0 +1,26 @@
+<div class="container">
+  <h3>
+    Longest word game
+  </h3>
+  <br>
+
+  <h5>Here is your grid:</h5>
+  <div class="letters">
+    <ul class="letter-list d-flex">
+      <% @letters.each do |letter| %>
+      <li><%= letter %></li>
+      <% end %>
+    </ul>
+  </div>
+  <br>
+
+  <div class="try">
+    <p>What is the longest word you can find?</p>
+
+    <form action="/score" method="get" class="d-flex">
+    <input type="text" name="try" class="form-control">
+    <input type="submit" value="play" class="btn btn-secondary">
+    </form>
+  </div>
+
+</div>

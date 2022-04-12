@@ -1,0 +1,15 @@
+// Place all the styles related to the words controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.letter-list {
+  list-style-type: none;
+  padding: 0px;
+  li {
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    background-color: #0069D9;
+    margin: 0 4px;
+  }
+}
